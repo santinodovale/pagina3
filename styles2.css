@@ -10,3 +10,11 @@ video{
     position: absolute;
     top: 25%
 }
+@media (max-width: 800px) {
+    video{
+        position: absolute;
+        top: 30%;
+        width: 400px;
+    }   
+
+}
