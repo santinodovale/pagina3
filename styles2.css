@@ -6,3 +6,7 @@ body{
     background-clip: border-box;
     justify-content: center;
 }
+video{
+    position: absolute;
+    top: 25%
+}
