@@ -7,6 +7,7 @@ body{
     justify-content: center;
 }
 fieldset{
+    animation-duration: 3s;
     text-align: center;
     vertical-align: middle;
     position: absolute;
@@ -17,6 +18,17 @@ fieldset{
     font-weight: 1000;
     border: none;
     border-radius: 12px;
+    animation-name: aparece;
+    animation-duration: 1s;
+    animation-timing-function:ease-in-out ;
+}
+@keyframes aparece {
+   from {
+    opacity: 0%;
+   }
+   to{
+    opacity: 100%;
+   }
 }
 input{
     font-size: 20px;
