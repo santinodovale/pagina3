@@ -6,12 +6,13 @@ body{
     background-clip: border-box;
     justify-content: center;
 }
-.twitter-tweet{
+video{
     position: absolute;
-    top: 25%
+    top: 25%;
+    color: transparent;
 }
 @media (max-width: 800px) {
-    .twitter-tweet{
+    video{
         position: absolute;
         top: 20%;
         width: 400px;
