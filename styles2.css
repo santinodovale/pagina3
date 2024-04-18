@@ -6,16 +6,21 @@ body{
     background-clip: border-box;
     justify-content: center;
 }
-video{
-    position: absolute;
-    top: 25%;
+#eselamor{
+    position: relative;
+}
+#enlacolano{
+    position: relative;
     color: transparent;
 }
 @media (max-width: 800px) {
-    video{
-        position: absolute;
-        top: 20%;
+    #eselamor{
+        position: relative
         width: 400px;
+    }
+    #enlacolano{
+        position: relative;
+        width: 200pc;
     }   
 
 }
