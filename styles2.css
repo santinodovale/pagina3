@@ -9,23 +9,23 @@ body{
 #eselamor{
     position: absolute;
     top: 0%;
-    width: 800px;
+    width: 720px;
 }
 #enlacolano{
     position: absolute;
-    top: 40%;
-    width: 800px;
+    top: 540px;
+    width: 720px;
 }
 @media (max-width: 800px) {
     #eselamor{
         position: absolute;
         top: 0%;
-        width: 400px;
+        width: 360px;
     }
     #enlacolano{
         position: absolute;
-        top: 35.5%;
-        width: 400px;
+        top: 270px;
+        width: 360px;
     }   
 
 }
