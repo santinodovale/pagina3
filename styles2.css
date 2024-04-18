@@ -7,20 +7,25 @@ body{
     justify-content: center;
 }
 #eselamor{
-    position: relative;
+    position: absolute;
+    top: 0%;
+    width: 800px;
 }
 #enlacolano{
-    position: relative;
-    color: transparent;
+    position: absolute;
+    top: 40%;
+    width: 800px;
 }
 @media (max-width: 800px) {
     #eselamor{
-        position: relative
+        position: absolute;
+        top: 0%;
         width: 400px;
     }
     #enlacolano{
-        position: relative;
-        width: 200px;
+        position: absolute;
+        top: 35.5%;
+        width: 400px;
     }   
 
 }
